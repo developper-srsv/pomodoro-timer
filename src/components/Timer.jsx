@@ -261,6 +261,7 @@
 //   );
 // }
 
+
 import { useState, useEffect } from "react";
 
 const MODES = {
@@ -356,7 +357,7 @@ export default function Timer() {
 
   return (
     <div
-      className={`min-h-screen flex flex-col items-center justify-center transition-all duration-500 ${
+      className={`min-h-screen flex flex-col px-4 items-center justify-center transition-all duration-500 ${
         darkMode 
           ? "bg-gradient-to-br from-slate-900 via-gray-900 to-slate-800 text-white" 
           : "bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 text-gray-800"
