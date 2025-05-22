@@ -723,7 +723,7 @@ export default function Timer() {
           <select
             value={customMinutes}
             onChange={handleCustomChange}
-            className={`appearance-none rounded-full pl-5 pr-6 py-3 text-sm font-medium shadow-lg focus:outline-none focus:ring-2 focus:ring-cyan-500 transition-all duration-300 hover:scale-105 w-full ${
+            className={`appearance-none rounded-full pl-5 pr-8 py-3 text-sm font-medium shadow-lg focus:outline-none focus:ring-2 focus:ring-cyan-500 transition-all duration-300 hover:scale-105 w-full ${
               darkMode
                 ? "bg-slate-800 text-slate-300 border border-slate-700 hover:bg-slate-700"
                 : "bg-white text-gray-700 border border-gray-200 hover:bg-gray-50"
